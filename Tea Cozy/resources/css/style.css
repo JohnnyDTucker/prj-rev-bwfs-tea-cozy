@@ -1,0 +1,177 @@
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+}
+
+
+
+#main-header {
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  display: flex;
+}
+
+#main-header .container {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+#header-logo {
+  flex-grow: 1;
+}
+
+#header-logo > img {
+  height: 50px;
+  flex-grow: 1;
+}
+
+#header-nav span {
+  font-size: 22px;
+  margin: 0 10px;
+}
+
+#header-nav a {
+  color: white;
+}
+
+
+
+#main-content {
+  margin-top: 70px;
+}
+
+.blackbox {
+  background-color: black;
+  text-align: center;
+}
+
+
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+#mission > .blackbox {
+  width: 1200px;
+}
+
+#mission .blackbox > h2 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#mission .blackbox > h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+#featured {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#featured > h1, #featured > h3 {
+  text-align: center;
+}
+
+#featured > .container {
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.tea-feature {
+  text-align: center;
+  margin: 0 15px;
+}
+
+.tea-image {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.tea-feature h3 {
+  margin-top: 0;
+}
+
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url("../images/img-locations-background.jpg");
+  justify-content: center;
+  text-align: center;
+}
+
+#locations .row {
+  display: flex;
+}
+
+#locations .blackbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  margin: 0 15px;
+  opacity: 1;
+}
+
+#locations .blackbox h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+#locations .blackbox > h3 {
+  font-weight: normal;
+  font-size: 22px;
+}
+
+
+#main-footer {
+  padding-top: 10px;
+}
+
+#main-footer h5 {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+#main-footer .copyright {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#contact-info {
+  text-align: center;
+  height: 200px;
+}
+
+#contact-info h1 {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 36px;
+}
